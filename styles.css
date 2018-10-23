@@ -43,7 +43,9 @@ body {
     border-radius: 5px;
 }
 
-.table {
+.available {
+    background-color: #EEE;
+    color: #ADAAAA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +55,6 @@ body {
     margin: 10px;
     cursor: default;
 } 
-
-.available, .table {
-    background-color: #EEE;
-    color: #ADAAAA;
-}
 
 .reserved {
     background-color: #ADAAAA;
